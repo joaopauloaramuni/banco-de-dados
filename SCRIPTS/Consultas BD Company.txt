@@ -1,0 +1,30 @@
+Consulta 0: Recuperar a data de nascimento eo endereço do empregado (s), cujo nome é John B. Smith
+Consulta 1: Recuperar o nome e endereço de todos os empregados que trabalham para o departamento de pesquisa.
+Consulta 2: Para cada projeto localizado em Stafford, listar o número do projeto, o número do departamento de controle, e último nome do gerente de departamento, endereço e data de nascimento.
+Consulta 3: Recuperar os nomes de cada empregado que trabalha em todos os projetos controlados pelo departamento 5
+Consulta 4: Faça uma lista de todos os números de projetos para projetos que envolvam um empregado cujo último nome é Smith ou como trabalhador ou como gerente do departamento que controla o projeto.
+Consulta 5: Recupere os nomes de todos os funcionários que têm dois ou mais dependentes.
+Consulta 6: Recuperar os nomes dos empregados que não têm dependentes.
+Consulta 7: Listar os nomes dos gerentes que têm pelo menos um dependente.
+Consulta 8: Para cada empregado, recupere primeiro e último nome do empregado e do primeiro e último nome de seu supervisor imediato
+Consulta 9: Recuperar todos os CPFs de funcionários
+Consulta 10: Obter todas as combinações de NOME SSN e DEPARTAMENTO
+Consulta 11: Recuperar o salário de cada empregado
+Consulta 11: Recuperar os valores salariais distintas
+Consulta 12: Recuperar todos os funcionários cujo endereço está em Houston, Texas
+Consulta 13: Ver os salários resultantes se cada empregado que trabalha no projeto ProdutoX é dado um aumento de 10%.
+Consulta 14: Obter todos os empregados do departamento 5 cujo salário é entre US $ 30.000 e US $ 40.000
+Consulta 15: Obter uma lista de funcionários e os projetos em que estão trabalhando, ordenados por departamento e, dentro de cada departamento, em ordem alfabética pelo sobrenome, nome
+Consulta 16: Recuperar o nome de cada funcionário que tem um dependente com o mesmo nome e do mesmo sexo que o empregado
+Consulta 17: Recupere os números de segurança social de todos os empregados que trabalham em números de projetos 1, 2, ou 3.
+Consulta 18: Recupere os nomes de todos os funcionários que não têm um supervisor
+Consulta 19: Encontre a soma dos salários de todos os funcionários, o salário máximo, o salário mínimo eo salário médio.
+Consulta 20: Encontre a soma dos salários de todos os funcionários do departamento de pesquisa, bem como o salário máximo, o salário mínimo, eo salário médio neste departamento.
+Consulta 21: Recuperar o número total de empregados na empresa.
+Consulta 22: Recuperar o número total de funcionários no departamento de Research.
+Consulta 23: Contar o número de valores distintos de salário no banco de dados.
+Consulta 24: Para cada departamento, recuperar o número do departamento, o número de funcionários do departamento, e sua média salarial
+Consulta 25: Para cada projeto, recupere o número do projeto, o nome do projeto eo número de funcionários que trabalham no projeto.
+Consulta 26: Para cada projeto em que mais de dois funcionários a trabalhar, recuperar o número do projeto, o nome do projeto eo número de funcionários que trabalham no projeto.
+Consulta 27: Para cada projeto, recupere o número do projeto, o nome do projeto e do número de empregados do departamento 5 que trabalham no projeto.
+Consulta 28: Para cada departamento que tenha mais de cinco empregados, recuperar o número do departamento eo número de seus funcionários que estão fazendo mais de US $ 40.000.
