@@ -411,7 +411,6 @@ VALUES
 ;
 
 
-
 CREATE TABLE Rel_Trainer_Pokemon
     (`ID_Trainer` int, `ID_Pokemon` int)
 ;
@@ -463,7 +462,6 @@ VALUES
     (12, 142),
     (12, 149)
 ;
-
 
 
 CREATE TABLE Trainers
