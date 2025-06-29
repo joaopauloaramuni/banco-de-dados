@@ -21,8 +21,6 @@ Disciplina dos cursos de Ciência da Computação, Sistemas de Informação e An
 
 #### Links úteis:
 
------
-
 ##### 🧰 Ferramentas de Diagramação e Design
 - 🧩 [Draw.io (Modelagem Visual)](https://www.drawio.com/)
 - 🎨 [Figma Templates](https://www.figma.com/pt-br/templates/)
