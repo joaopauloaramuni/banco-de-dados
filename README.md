@@ -21,9 +21,6 @@ Disciplina dos cursos de Ciência da Computação, Sistemas de Informação e An
 
 #### Links úteis:
 
-##### 🐬 Ferramenta de Gerenciamento de Banco de Dados
-- [DBeaver (Client SQL Universal)](https://dbeaver.io/download/)
-
 -----
 
 ##### 🧰 Ferramentas de Diagramação e Design
@@ -35,21 +32,24 @@ Disciplina dos cursos de Ciência da Computação, Sistemas de Informação e An
 
 ##### 🗃️ Sistemas de Gerenciamento de Bancos de Dados (SGBDs)
 
-💾 Relacionais (SQL)
+###### 💻 Ferramentas de Acesso e Administração
+- 🐬 [DBeaver (Client SQL Universal)](https://dbeaver.io/download/)
+
+###### 💾 Relacionais (SQL)
 Esses bancos utilizam linguagem estruturada (SQL) para manipular dados relacionais organizados em tabelas.
 
-###### 🐘 PostgreSQL
+**🐘 PostgreSQL**
 - 🌐 [Site Oficial - PostgreSQL](https://www.postgresql.org/)
 - 📥 [Download do PostgreSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 
-###### 🧱 SQLite
+**🧱 SQLite**
 - 🌐 [Site Oficial - SQLite](https://www.sqlite.org/index.html)
 - 📚 [Documentação Oficial - SQLite](https://www.sqlite.org/docs.html)
 
-🍃 Não Relacional (NoSQL)
+###### 🍃 Não Relacional (NoSQL)
 Bancos de dados orientados a documentos, chave-valor ou grafos, mais flexíveis para dados semi-estruturados.
 
-###### 🍃 MongoDB
+**🍃 MongoDB**
 - 🌐 [MongoDB Community Server - Download](https://www.mongodb.com/try/download/community)
 - 🧭 [MongoDB Compass (Interface Gráfica)](https://www.mongodb.com/products/tools/compass)
 
@@ -60,12 +60,12 @@ Bancos de dados orientados a documentos, chave-valor ou grafos, mais flexíveis 
 
 -----
 
-##### 📚 Livros recomendados
+##### 📚 Livros Recomendados
 
-- **📘 ["Sistemas de Banco de Dados" — Abraham Silberschatz, Henry Korth, S. Sudarshan](https://www.amazon.com.br/dp/8576059104)**  
-  Um dos livros mais tradicionais da área, abordando desde os fundamentos até tópicos avançados como transações e otimização de consultas.
+- **📘 ["Sistema de Banco de Dados" — Abraham Silberschatz, Henry Korth, S. Sudarshan](https://www.amazon.com.br/Sistema-Banco-Dados-Abraham-SILBERSCHATZ/dp/8595157332)**  
+  Um clássico da área, amplamente usado em cursos de graduação. Cobre fundamentos, modelagem, SQL, transações, processamento de consultas e muito mais.
 
-- **📗 ["Modelagem Conceitual e Projeto de Banco de Dados" — Carlos A. Heuser](https://www.amazon.com.br/dp/8521627314)**  
-  Excelente livro nacional para entender a modelagem de dados com foco prático e acadêmico.
+- **📗 ["Livro Projeto de Banco de Dados" — Carlos A. Heuser (Clube de Autores)](https://www.amazon.com.br/Clube-Autores-Livro-Projeto-Banco/dp/6501222109)**  
+  Livro nacional focado em modelagem conceitual e projeto de bancos de dados relacionais. Didático e com muitos exemplos práticos.
 
 -----
