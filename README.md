@@ -78,11 +78,11 @@ CREATE TABLE [NOME_TABELA] (
     ...
     CONSTRAINT [PK_NOME_TABELA] PRIMARY KEY ([COLUNA1])
 );
--- Cria uma nova tabela com colunas e define a chave primária
+-- Cria uma nova tabela e define a chave primária para garantir unicidade
 
 -- 🔐 Criação de índice único
 CREATE UNIQUE INDEX [IPK_NOME_TABELA] ON [NOME_TABELA]([COLUNA]);
--- Cria um índice que garante unicidade na coluna e melhora performance de busca
+-- Cria um índice para garantir que os valores da coluna sejam únicos
 
 -- 📥 Inserção de dados
 INSERT INTO NOME_TABELA (COLUNA1, COLUNA2, ...) 
@@ -91,11 +91,11 @@ VALUES (VALOR1, VALOR2, ...);
 
 -- 🔍 Consulta simples com filtro
 SELECT * FROM TABELA WHERE COLUNA LIKE '%VALOR%';
--- Filtra registros que contenham o valor indicado
+-- Filtra registros com valores que contenham o padrão informado
 
 -- ✏️ Atualização de dados
 UPDATE NOME_TABELA SET COLUNA = NOVO_VALOR WHERE CONDICAO;
--- Altera dados existentes com base em uma condição
+-- Atualiza registros existentes com base em uma condição
 
 -- ❌ Exclusão de registros
 DELETE FROM NOME_TABELA WHERE CONDICAO;
@@ -111,13 +111,13 @@ INNER JOIN TABELA_B B ON A.CHAVE = B.CHAVE;
 SELECT A.COLUNA, B.COLUNA
 FROM TABELA_A A
 LEFT JOIN TABELA_B B ON A.CHAVE = B.CHAVE;
--- Retorna todos os registros da tabela da esquerda, mesmo sem correspondência
+-- Retorna todos os registros da tabela da esquerda, mesmo sem correspondência na direita
 
 -- 🔗 RIGHT JOIN: todos da direita + correspondentes da esquerda
 SELECT A.COLUNA, B.COLUNA
 FROM TABELA_A A
 RIGHT JOIN TABELA_B B ON A.CHAVE = B.CHAVE;
--- Retorna todos os registros da tabela da direita, mesmo sem correspondência
+-- Retorna todos os registros da tabela da direita, mesmo sem correspondência na esquerda
 
 -- 🔗 FULL OUTER JOIN: todos os registros de ambas as tabelas
 SELECT A.COLUNA, B.COLUNA
@@ -147,6 +147,43 @@ UNION
 SELECT COLUNA1 FROM TABELA2;
 -- Junta resultados diferentes em uma única lista (sem duplicados)
 
+-- 🧮 COUNT com GROUP BY
+SELECT COLUNA_AGRUPADA, COUNT(*) AS TOTAL
+FROM TABELA
+GROUP BY COLUNA_AGRUPADA;
+-- Conta quantos registros existem por grupo
+
+-- 📄 DISTINCT para eliminar duplicados
+SELECT DISTINCT COLUNA
+FROM TABELA;
+-- Retorna apenas valores únicos da coluna selecionada
+
+-- 🧪 BETWEEN para filtros por intervalo
+SELECT * FROM TABELA
+WHERE DATA BETWEEN '2023-01-01' AND '2023-12-31';
+-- Filtra registros dentro de um intervalo (inclusive os limites)
+
+-- 🔘 IN para múltiplos valores
+SELECT * FROM TABELA
+WHERE STATUS IN ('PAGO', 'PENDENTE', 'CANCELADO');
+-- Filtra registros que possuem um dos valores indicados
+
+-- ❓ IS NULL e IS NOT NULL
+SELECT * FROM TABELA WHERE COLUNA IS NULL;
+SELECT * FROM TABELA WHERE COLUNA IS NOT NULL;
+-- Verifica se uma coluna está ou não preenchida
+
+-- 🎯 CASE para lógica condicional
+SELECT 
+  NOME,
+  CASE 
+    WHEN VLR_PEDIDO > 100 THEN 'ALTO'
+    WHEN VLR_PEDIDO > 50 THEN 'MÉDIO'
+    ELSE 'BAIXO'
+  END AS CATEGORIA_VALOR
+FROM PEDIDO_VENDA;
+-- Permite criar lógica condicional diretamente nas consultas
+
 -- 🔢 AVG, MAX, MIN
 SELECT 
     AVG(VALOR) AS MEDIA, 
@@ -154,6 +191,13 @@ SELECT
     MIN(VALOR) AS MENOR 
 FROM TABELA;
 -- Calcula média, maior e menor valores de uma coluna
+
+-- 💡 LIMIT (ou TOP no SQL Server)
+SELECT * FROM TABELA
+LIMIT 10; -- (MySQL, PostgreSQL)
+-- ou
+SELECT TOP 10 * FROM TABELA; -- (SQL Server)
+-- Restringe o número de registros retornados
 ```
 
 -----
