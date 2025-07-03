@@ -63,7 +63,7 @@ Bancos de dados orientados a documentos, chave-valor ou grafos, mais flexíveis 
 
 -----
 
-##### 📜 Scripts de Exemplos
+##### 📜 Scripts de exemplo
 - :octocat: [Scripts de Banco de Dados no GitHub](https://github.com/joaopauloaramuni/banco-de-dados/tree/main/SCRIPTS)
 
 -----
