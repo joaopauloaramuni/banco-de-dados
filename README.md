@@ -18,6 +18,7 @@ Disciplina dos cursos de Ciência da Computação, Sistemas de Informação e An
 - [Listas](https://github.com/joaopauloaramuni/banco-de-dados/tree/main/LISTAS)
 - [Scripts](https://github.com/joaopauloaramuni/banco-de-dados/tree/main/SCRIPTS)
 - [Backup BD](https://github.com/joaopauloaramuni/banco-de-dados/tree/main/BACKUP%20BD)
+- [Plano de Ensino](https://github.com/joaopauloaramuni/banco-de-dados/tree/main/PLANO%20DE%20ENSINO)
 
 #### Links úteis:
 
