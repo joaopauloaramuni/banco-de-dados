@@ -54,6 +54,14 @@ Bancos de dados orientados a documentos, chave-valor ou grafos, mais flexíveis 
 
 -----
 
+##### 🏗️ SQL Roadmap
+
+Um **roadmap** é um guia visual que apresenta etapas, habilidades ou conhecimentos necessários para atingir um objetivo específico. Ele ajuda a organizar o aprendizado ou desenvolvimento ao longo do tempo, mostrando caminhos recomendados e prioridades.
+
+- 🗺️ [SQL Roadmap - Roadmap.sh](https://roadmap.sh/sql)
+
+-----
+
 ##### 📚 Livros Recomendados
 
 - **📘 ["Sistema de Banco de Dados" — Abraham Silberschatz, Henry Korth, S. Sudarshan](https://www.amazon.com.br/Sistema-Banco-Dados-Abraham-SILBERSCHATZ/dp/8595157332)**  
