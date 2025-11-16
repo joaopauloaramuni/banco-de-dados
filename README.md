@@ -66,6 +66,12 @@ Bancos de dados orientados a documentos, chave-valor ou grafos, mais flexíveis 
   - 💾 Suporte para salvar e exportar modelos, inclusive em formato SQL.
   - 💻 Código-fonte disponível no GitHub: [brmodeloweb/brmodelo-app](https://github.com/brmodeloweb/brmodelo-app)
 
+- 🧮 [DrawDB.app - Modelagem de banco de dados visual e moderna](https://drawdb.app/)
+  - 🎨 Interface limpa e intuitiva para criar diagramas ER de forma rápida.
+  - 📤 Exporta para PNG, SVG, PDF e JSON.
+  - 🧱 Permite gerar scripts SQL a partir do diagrama.
+  - 🌐 Funciona totalmente no navegador, sem necessidade de instalação.
+
 -----
 
 ##### 🏗️ SQL Roadmap
